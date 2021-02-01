@@ -1,3 +1,11 @@
 # 订阅转换-点击下方链接
+<img src="/sylas.png" width="512" height="512"/>
+<br>
+<br>
+<br>
 
-[acl4ssr-sub.github.io](https://acl4ssr-sub.github.io/)
+[塞拉斯版acl4ssr](https://histion.github.io/)
+<br>
+<br>
+<br>
+↑解释：塞拉斯版——即偷来的（2333）

@@ -3,11 +3,75 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 16,
             "patches": [
                 {
                     "date": 1660655200452,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1660655605438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<meta http-equiv=\"refresh\" content=\"0; URL='https://blog.histion.cf'\" />\n\\ No newline at end of file\n+<meta http-equiv=\"refresh\" content=\"3; URL='https://blog.histion.cf'\" />\r\n"
+                },
+                {
+                    "date": 1660655615801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,9 @@\n+\r\n+<html>\r\n+    <div id=\"box1\">\r\n+    <a href=\"https://histion.github.io\">\r\n+    <img src=\"https://raw.githubusercontent.com/histion/histion.github.io/web/404-1.png\"width=99% height=99% />\r\n+    </a>\r\n+    </div>\r\n+    \r\n <meta http-equiv=\"refresh\" content=\"3; URL='https://blog.histion.cf'\" />\r\n"
+                },
+                {
+                    "date": 1660655680835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,7 @@\n     <a href=\"https://histion.github.io\">\r\n     <img src=\"https://raw.githubusercontent.com/histion/histion.github.io/web/404-1.png\"width=99% height=99% />\r\n     </a>\r\n     </div>\r\n+    if(confirm(\"还有继续吗？\")){    alert(\"继续\");}else{    alert(\"再见\");}\r\n     \r\n <meta http-equiv=\"refresh\" content=\"3; URL='https://blog.histion.cf'\" />\r\n"
+                },
+                {
+                    "date": 1660655759977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,20 @@\n     <a href=\"https://histion.github.io\">\r\n     <img src=\"https://raw.githubusercontent.com/histion/histion.github.io/web/404-1.png\"width=99% height=99% />\r\n     </a>\r\n     </div>\r\n-    if(confirm(\"还有继续吗？\")){    alert(\"继续\");}else{    alert(\"再见\");}\r\n+\r\n+    <body>\r\n+        <!--插入按钮 开始-->\r\n+        <input type=\"button\" value=\"弹出对话框\" οnclick=\"MsgBox()\" />\r\n+        <!--插入按钮 结束-->\r\n+        <!--引用JS代码以达到弹出对话框目的 开始-->\r\n+        <script language=\"javascript\">\r\n+        function MsgBox() //声明标识符\r\n+        {\r\n+        alert(\"我是对话框的内容\"); //弹出对话框\r\n+        }\r\n+        </script>\r\n+        <!--引用JS代码以达到弹出对话框目的 结束-->\r\n+        \r\n     \r\n <meta http-equiv=\"refresh\" content=\"3; URL='https://blog.histion.cf'\" />\r\n"
+                },
+                {
+                    "date": 1660655808296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,5 +19,4 @@\n         </script>\r\n         <!--引用JS代码以达到弹出对话框目的 结束-->\r\n         \r\n     \r\n-<meta http-equiv=\"refresh\" content=\"3; URL='https://blog.histion.cf'\" />\r\n"
+                },
+                {
+                    "date": 1660655833778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n     <img src=\"https://raw.githubusercontent.com/histion/histion.github.io/web/404-1.png\"width=99% height=99% />\r\n     </a>\r\n     </div>\r\n \r\n+    <head><title>无标题文档</title></head>\r\n     <body>\r\n         <!--插入按钮 开始-->\r\n         <input type=\"button\" value=\"弹出对话框\" οnclick=\"MsgBox()\" />\r\n         <!--插入按钮 结束-->\r\n"
+                },
+                {
+                    "date": 1660655842769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,6 @@\n \r\n <html>\r\n-    <div id=\"box1\">\r\n-    <a href=\"https://histion.github.io\">\r\n-    <img src=\"https://raw.githubusercontent.com/histion/histion.github.io/web/404-1.png\"width=99% height=99% />\r\n-    </a>\r\n-    </div>\r\n-\r\n     <head><title>无标题文档</title></head>\r\n     <body>\r\n         <!--插入按钮 开始-->\r\n         <input type=\"button\" value=\"弹出对话框\" οnclick=\"MsgBox()\" />\r\n@@ -19,5 +13,16 @@\n         }\r\n         </script>\r\n         <!--引用JS代码以达到弹出对话框目的 结束-->\r\n         \r\n+\r\n+\r\n+\r\n+\r\n+    <div id=\"box1\">\r\n+    <a href=\"https://histion.github.io\">\r\n+    <img src=\"https://raw.githubusercontent.com/histion/histion.github.io/web/404-1.png\"width=99% height=99% />\r\n+    </a>\r\n+    </div>\r\n+\r\n+\r\n     \r\n"
+                },
+                {
+                    "date": 1660655875140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n <html>\r\n     <head><title>无标题文档</title></head>\r\n     <body>\r\n         <!--插入按钮 开始-->\r\n-        <input type=\"button\" value=\"弹出对话框\" οnclick=\"MsgBox()\" />\r\n+       \r\n         <!--插入按钮 结束-->\r\n         <!--引用JS代码以达到弹出对话框目的 开始-->\r\n         <script language=\"javascript\">\r\n         function MsgBox() //声明标识符\r\n"
+                },
+                {
+                    "date": 1660655992159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,20 +1,30 @@\n \r\n <html>\r\n-    <head><title>无标题文档</title></head>\r\n-    <body>\r\n-        <!--插入按钮 开始-->\r\n-       \r\n-        <!--插入按钮 结束-->\r\n-        <!--引用JS代码以达到弹出对话框目的 开始-->\r\n+  \r\n+        <head>\r\n+        \r\n+        <title>HTML网页打开后跳出来一个对话框，需要点确定</title>\r\n+        \r\n+        </head>\r\n+        \r\n+        <body onload=\"javascript:window.alert('确定吗？')\">\r\n+        \r\n+        </body>\r\n+        \r\n+        <html>\r\n+        \r\n+        如果要把提示分为两行居中显示代码如下：\r\n+        \r\n+        <head>\r\n+        \r\n         <script language=\"javascript\">\r\n-        function MsgBox() //声明标识符\r\n-        {\r\n-        alert(\"我是对话框的内容\"); //弹出对话框\r\n-        }\r\n+        \r\n+        alert(\"弹出提示上\\n弹出提示下\")\r\n+        \r\n         </script>\r\n-        <!--引用JS代码以达到弹出对话框目的 结束-->\r\n         \r\n+        </head>\r\n \r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1660656005123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,21 @@\n \r\n <html>\r\n   \r\n-        <head>\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+    <div id=\"box1\">\r\n+    <a href=\"https://histion.github.io\">\r\n+    <img src=\"https://raw.githubusercontent.com/histion/histion.github.io/web/404-1.png\"width=99% height=99% />\r\n+    </a>\r\n+    </div>\r\n+\r\n+\r\n+    \r\n+    <head>\r\n         \r\n         <title>HTML网页打开后跳出来一个对话框，需要点确定</title>\r\n         \r\n         </head>\r\n@@ -22,17 +35,5 @@\n         alert(\"弹出提示上\\n弹出提示下\")\r\n         \r\n         </script>\r\n         \r\n-        </head>\r\n-\r\n-\r\n-\r\n-\r\n-    <div id=\"box1\">\r\n-    <a href=\"https://histion.github.io\">\r\n-    <img src=\"https://raw.githubusercontent.com/histion/histion.github.io/web/404-1.png\"width=99% height=99% />\r\n-    </a>\r\n-    </div>\r\n-\r\n-\r\n-    \r\n+        </head>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1660656072189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,10 @@\n         \r\n         </body>\r\n         \r\n         <html>\r\n+\r\n         \r\n-        如果要把提示分为两行居中显示代码如下：\r\n         \r\n         <head>\r\n         \r\n         <script language=\"javascript\">\r\n"
+                },
+                {
+                    "date": 1660656146376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,27 +13,14 @@\n     </div>\r\n \r\n \r\n     \r\n-    <head>\r\n+\r\n         \r\n-        <title>HTML网页打开后跳出来一个对话框，需要点确定</title>\r\n-        \r\n-        </head>\r\n-        \r\n         <body onload=\"javascript:window.alert('确定吗？')\">\r\n         \r\n         </body>\r\n         \r\n-        <html>\r\n \r\n+\r\n+\r\n         \r\n-        \r\n-        <head>\r\n-        \r\n-        <script language=\"javascript\">\r\n-        \r\n-        alert(\"弹出提示上\\n弹出提示下\")\r\n-        \r\n\\ No newline at end of file\n-        </script>\r\n-        \r\n-        </head>\n"
+                },
+                {
+                    "date": 1660656166183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,22 @@\n <html>\r\n   \r\n \r\n \r\n+    <head>\r\n+        \r\n+    \r\n \r\n \r\n+        \r\n+        <body onload=\"javascript:window.alert('确定吗？')\">\r\n+        \r\n+        </body>\r\n+        \r\n+    </head>\r\n \r\n+\r\n+\r\n     <div id=\"box1\">\r\n     <a href=\"https://histion.github.io\">\r\n     <img src=\"https://raw.githubusercontent.com/histion/histion.github.io/web/404-1.png\"width=99% height=99% />\r\n     </a>\r\n@@ -14,13 +25,6 @@\n \r\n \r\n     \r\n \r\n-        \r\n-        <body onload=\"javascript:window.alert('确定吗？')\">\r\n-        \r\n-        </body>\r\n-        \r\n \r\n-\r\n-\r\n         \r\n"
+                },
+                {
+                    "date": 1660656182080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,22 +2,20 @@\n <html>\r\n   \r\n \r\n \r\n-    <head>\r\n-        \r\n-    \r\n \r\n \r\n+\r\n         \r\n         <body onload=\"javascript:window.alert('确定吗？')\">\r\n         \r\n         </body>\r\n         \r\n-    </head>\r\n \r\n \r\n \r\n+\r\n     <div id=\"box1\">\r\n     <a href=\"https://histion.github.io\">\r\n     <img src=\"https://raw.githubusercontent.com/histion/histion.github.io/web/404-1.png\"width=99% height=99% />\r\n     </a>\r\n"
+                },
+                {
+                    "date": 1660656258100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,12 +6,10 @@\n \r\n \r\n \r\n         \r\n-        <body onload=\"javascript:window.alert('确定吗？')\">\r\n+   \r\n         \r\n-        </body>\r\n-        \r\n \r\n \r\n \r\n \r\n@@ -21,8 +19,12 @@\n     </a>\r\n     </div>\r\n \r\n \r\n-    \r\n+    <body onload=\"javascript:window.alert('因技术原因，本博客已迁移至wordpress，按下确定3秒后自动跃迁~~')\">\r\n+    </body>\r\n \r\n+    <meta http-equiv=\"refresh\" content=\"3; URL='https://blog.histion.cf'\" />\r\n \r\n+\r\n+\r\n         \r\n"
+                },
+                {
+                    "date": 1660656263195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,19 +1,6 @@\n \r\n <html>\r\n-  \r\n-\r\n-\r\n-\r\n-\r\n-\r\n-        \r\n-   \r\n-        \r\n-\r\n-\r\n-\r\n-\r\n     <div id=\"box1\">\r\n     <a href=\"https://histion.github.io\">\r\n     <img src=\"https://raw.githubusercontent.com/histion/histion.github.io/web/404-1.png\"width=99% height=99% />\r\n     </a>\r\n"
                 }
             ],
             "date": 1660655200452,

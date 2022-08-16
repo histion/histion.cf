@@ -1,0 +1,18 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1660655200452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1660655200452,
+            "name": "Commit-0",
+            "content": "<meta http-equiv=\"refresh\" content=\"0; URL='https://blog.histion.cf'\" />"
+        }
+    ]
+}
